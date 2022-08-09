@@ -33,7 +33,7 @@ public class DefaultOneTwoArgument
     {
         new ParentClass();
         new ParentClass(30);
-        new ParentClass("Shashwat", "BCA");
+        new ParentClass("Anup", "BCA");
     }
 }
 
@@ -69,7 +69,7 @@ public class CallSuperFromChild
     {
         new ChildClass();
         new ChildClass(30);
-        new ChildClass("Shashwat", "BCA", "AIITK","Kolkata");
+        new ChildClass("Anup", "BCA", "AIITK","Kolkata");
     }
 }
 
@@ -94,7 +94,7 @@ class PublicPrivateProtectedDefault
 
     public PublicPrivateProtectedDefault(int rollNo) 
     {
-        this("Shashwat");
+        this("Anup");
         this.rollNo = rollNo;
         System.out.println("rollNo : " + rollNo);
     }
